@@ -1,9 +1,7 @@
-package org.ejb.session.model.core;
+package org.ejb.sample.model.core;
 
 import java.io.Serializable;
 import java.util.List;
-
-import org.ejb.session.model.core.Indexable;
 
 /**
  * This interface describes all basic DAO implementations.

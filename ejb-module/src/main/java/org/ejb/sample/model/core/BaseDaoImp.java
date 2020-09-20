@@ -1,7 +1,5 @@
-package org.ejb.session.model.core;
+package org.ejb.sample.model.core;
 
-import javax.annotation.Resource;
-import javax.ejb.SessionContext;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
@@ -19,7 +17,7 @@ public abstract class BaseDaoImp<E extends Indexable> implements BaseDao<E> {
 	/**
 	 * The JPA entity manager to be used from all derived DAO classes
 	 */
-	@PersistenceContext(unitName = "ejbSampleDS")
+	@PersistenceContext
 	protected EntityManager em;
 
 	/**

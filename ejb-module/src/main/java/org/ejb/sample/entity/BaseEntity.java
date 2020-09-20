@@ -1,8 +1,8 @@
-package org.ejb.session.entity;
+package org.ejb.sample.entity;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
-import org.ejb.session.model.core.Indexable;
+import org.ejb.sample.model.core.Indexable;
 
 import java.io.Serializable;
 
