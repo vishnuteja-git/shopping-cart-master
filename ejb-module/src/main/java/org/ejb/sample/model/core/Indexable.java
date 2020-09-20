@@ -1,4 +1,4 @@
-package org.ejb.session.model.core;
+package org.ejb.sample.model.core;
 
 /**
  * Interface for an object with a database primary key ID
