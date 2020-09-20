@@ -1,7 +1,7 @@
 package org.ejb.sample.servlet;
 
-import org.ejb.session.model.UserDao;
-import org.ejb.session.entity.User;
+import org.ejb.sample.model.UserDao;
+import org.ejb.sample.model.User;
 
 import javax.ejb.EJB;
 import javax.servlet.ServletException;

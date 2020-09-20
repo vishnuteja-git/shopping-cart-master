@@ -1,6 +1,5 @@
-package org.ejb.session.model;
+package org.ejb.sample.model;
 
-import org.ejb.session.entity.User;
 import org.ejb.session.model.core.BaseDao;
 
 import javax.ejb.Remote;

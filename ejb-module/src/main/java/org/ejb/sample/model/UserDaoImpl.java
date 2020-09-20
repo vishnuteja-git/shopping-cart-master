@@ -1,7 +1,6 @@
-package org.ejb.session.model;
+package org.ejb.sample.model;
 
 import org.ejb.session.model.core.BaseDaoImp;
-import org.ejb.session.entity.User;
 
 import javax.ejb.Stateless;
 

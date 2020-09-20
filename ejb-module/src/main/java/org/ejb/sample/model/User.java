@@ -1,4 +1,4 @@
-package org.ejb.session.entity;
+package org.ejb.sample.model;
 
 import javax.persistence.*;
 import java.util.Date;
