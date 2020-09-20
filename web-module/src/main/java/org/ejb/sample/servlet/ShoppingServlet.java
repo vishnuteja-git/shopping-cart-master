@@ -1,16 +1,15 @@
 package org.ejb.sample.servlet;
 
-import org.ejb.sample.servlet.helper.MdbHelper;
-import org.ejb.session.ejb.ShoppingCart;
-import org.ejb.session.model.Product;
-import org.ejb.session.model.UserDao;
+
+import org.ejb.sample.ejb.ShoppingCart;
+import org.ejb.sample.model.Product;
+import org.ejb.sample.model.UserDao;
 
 import javax.ejb.EJB;
 import javax.jms.*;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

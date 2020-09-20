@@ -1,4 +1,4 @@
-package org.ejb.session.model;
+package org.ejb.sample.model;
 
 import java.io.Serializable;
 

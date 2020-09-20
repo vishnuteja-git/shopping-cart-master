@@ -1,6 +1,6 @@
-package org.ejb.session.ejb;
+package org.ejb.sample.ejb;
 
-import org.ejb.session.model.Product;
+import org.ejb.sample.model.Product;
 
 import javax.ejb.Local;
 import java.util.List;
