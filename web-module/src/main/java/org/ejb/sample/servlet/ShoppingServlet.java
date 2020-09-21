@@ -6,7 +6,6 @@ import org.ejb.sample.model.Product;
 import org.ejb.sample.model.UserDao;
 
 import javax.ejb.EJB;
-import javax.jms.*;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.servlet.ServletException;
@@ -64,14 +63,6 @@ public class ShoppingServlet extends HttpServlet {
 		if(persist != null && persist.equalsIgnoreCase("yes")){
 			// Request instructs to complete the purchase
 			System.out.println("Request recieved to purchase items");
-
-			try {
-				MdbHelper.sendMessage(shoppingCartBean.getCartProducts());
-			} catch (JMSException e) {
-				e.printStackTrace();
-			} catch (NamingException e) {
-				e.printStackTrace();
-			}
 
 			shoppingCartBean.completePurchase();
 		}
