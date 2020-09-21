@@ -1,6 +1,6 @@
 package org.ejb.sample.model;
 
-import org.ejb.session.model.core.BaseDao;
+import org.ejb.sample.model.core.BaseDao;
 
 import javax.ejb.Remote;
 

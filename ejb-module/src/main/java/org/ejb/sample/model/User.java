@@ -1,5 +1,7 @@
 package org.ejb.sample.model;
 
+import org.ejb.sample.entity.BaseEntity;
+
 import javax.persistence.*;
 import java.util.Date;
 
