@@ -1,4 +1,4 @@
-package org.ejb.sample.ejb.utility;
+package org.ejb.sample.servlet.helper;
 
 import java.io.FileWriter;
 import java.io.IOException;
