@@ -12,7 +12,7 @@ import javax.persistence.PersistenceContext;
 import java.util.ArrayList;
 import java.util.List;
 
-@Stateless
+@Stateful
 public class ShoppingCartBean implements ShoppingCart {
 
 	@PersistenceContext
